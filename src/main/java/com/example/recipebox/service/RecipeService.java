@@ -46,7 +46,7 @@ public class RecipeService {
         return recipeRepository.save(existingRecipe);
     }
 
-    // DELETE
+
     public void deleteRecipe(Long id) {
 
         if (!recipeRepository.existsById(id)) {
